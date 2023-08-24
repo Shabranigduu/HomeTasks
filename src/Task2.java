@@ -15,15 +15,16 @@ public class Task2 {
                 sc.next();
             }
             year = sc.nextInt();
-            if (year >= 0) chekPositive = false;
-            else System.out.println("Вы ввели отрицательное число. Попробуйте еще раз");
-        }
-        if (year%4 == 0){
-            if (year%100 == 0 && year%400 != 0) {
-                System.out.println(year + " не является високосным");
-                return;
+            if (year >= 0) {
+                chekPositive = false;
+            } else {
+                System.out.println("Вы ввели отрицательное число. Попробуйте еще раз");
             }
+        }
+        if (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0)) {
             System.out.println(year + " является високосным");
-        } else System.out.println(year + " не является високосным");
+        } else {
+            System.out.println(year + " не является високосным");
+        }
     }
 }
