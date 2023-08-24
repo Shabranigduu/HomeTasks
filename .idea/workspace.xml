@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65dd5a26-51ae-4e92-a00c-9b1451ff2315" name="Changes" comment="перенес scanner внутрь методов">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task2.java" beforeDir="false" />
+    <list default="true" id="65dd5a26-51ae-4e92-a00c-9b1451ff2315" name="Changes" comment="проверка изменения">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
     "last_opened_file_path": "C:/Users/Tower/IdeaProjects/untitled2"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Task2">
     <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task1" />
       <module name="HomeTasks" />
@@ -48,8 +48,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task2" />
+      <module name="HomeTasks" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task2" />
         <item itemvalue="Application.Task1" />
       </list>
     </recent_temporary>
@@ -77,7 +85,28 @@
       <option name="project" value="LOCAL" />
       <updated>1692874541053</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="перенес scanner внутрь методов">
+      <created>1692874832922</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692874832922</updated>
+    </task>
+    <task id="LOCAL-00004" summary="перенес scanner внутрь методов">
+      <created>1692874875178</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692874875178</updated>
+    </task>
+    <task id="LOCAL-00005" summary="проверка изменения">
+      <created>1692874960822</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1692874960822</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,6 +123,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.1" />
     <MESSAGE value="перенес scanner внутрь методов" />
-    <option name="LAST_COMMIT_MESSAGE" value="перенес scanner внутрь методов" />
+    <MESSAGE value="проверка изменения" />
+    <option name="LAST_COMMIT_MESSAGE" value="проверка изменения" />
   </component>
 </project>
