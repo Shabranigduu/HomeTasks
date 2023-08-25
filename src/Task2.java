@@ -31,7 +31,7 @@ public class Task2 {
             string = sc.next();
             if (string.equalsIgnoreCase("в") || string.equalsIgnoreCase("выход")){
                 break;
-            }else System.out.println("продолжаем1");
+            }else System.out.println("продолжаем");
         }
     }
 }
