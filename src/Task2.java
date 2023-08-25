@@ -6,7 +6,6 @@ public class Task2 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         int year = 0;
         String string;
         while (true) {
