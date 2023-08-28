@@ -1,3 +1,5 @@
+package Task1_Task2_Task3;
+
 import java.util.Random;
 import java.util.Scanner;
 

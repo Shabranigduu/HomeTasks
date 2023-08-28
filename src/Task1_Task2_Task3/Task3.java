@@ -1,13 +1,15 @@
+package Task1_Task2_Task3;
+
 import java.util.Arrays;
 
 public class Task3 {
     public static void main(String[] args) {
-        int[] array1 = {1, 2, 3, 4, 5, 6};
+        int[] array1 = new int[0];
         int[] array2 = {10, 11, 12, 13};
         int[] array3 = {1, 1, 3, 3, 5, 5};
 
-        int[] arrayResult1 = arrayMoveOne(array1);
-        System.out.println("\nСдвигаем элементы массива " + Arrays.toString(array1) + " на один элемент вперед по кругу ->  " + Arrays.toString(arrayResult1));
+        arrayMoveOne(array1);
+        System.out.println("\nСдвигаем элементы массива " + Arrays.toString(array1) + " на один элемент вперед по кругу ->  " + Arrays.toString(array1));
 
         System.out.print("\nЗаменяем дубликаты на нули в массиве " + Arrays.toString(array3));
         deleteDuplicates(array3);
@@ -17,14 +19,15 @@ public class Task3 {
 
     }
 
-    public static int[] arrayMoveOne(int[] array) {
-        int[] tempArray = new int[array.length];
-        tempArray[0] = array[array.length - 1];
-//        for (int i = 0; i < array.length - 1; i++) {
-//            tempArray[i+1] = array[i];
-//        }
-        System.arraycopy(array, 0, tempArray, 1, array.length - 1);
-        return tempArray;
+    public static void arrayMoveOne(int[] array) {
+         if (array.length != 0) {
+            int tempElemetn = array[array.length - 1];
+            for (int i = array.length - 1; i > 0; i--) {
+                array[i] = array[i - 1];
+            }
+            array[0] = tempElemetn;
+        }else System.out.println("Вы передали пустой массив");;
+
     }
 
     public static void deleteDuplicates(int[] array) {
