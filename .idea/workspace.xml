@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65dd5a26-51ae-4e92-a00c-9b1451ff2315" name="Changes" comment="добавил класс с динамическим массивом ArrayBist">
-      <change afterPath="$PROJECT_DIR$/src/Task4/Elevator.java" afterDir="false" />
+    <list default="true" id="65dd5a26-51ae-4e92-a00c-9b1451ff2315" name="Changes" comment="добавил класс Elevator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task4/Elevator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task4/Elevator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Task4/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task4/Run.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -158,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693263577063</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="добавил класс Elevator">
+      <created>1693311539135</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1693311539135</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,6 +186,7 @@
     <MESSAGE value="добавил ДЗ №2" />
     <MESSAGE value="добавил ДЗ №3" />
     <MESSAGE value="добавил класс с динамическим массивом ArrayBist" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил класс с динамическим массивом ArrayBist" />
+    <MESSAGE value="добавил класс Elevator" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил класс Elevator" />
   </component>
 </project>
