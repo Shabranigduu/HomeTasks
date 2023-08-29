@@ -20,5 +20,20 @@ public class Run {
         dinamo.add(array);
         dinamo.add(array1);
         dinamo.print();
+
+        System.out.println("\n   Создаем лифт \n");
+
+        Elevator elevator = new Elevator(5,10);
+        System.out.println("Текущий этаж " + elevator.getCurrentFloor());
+        elevator.moveDown();
+        elevator.moveUp();
+        elevator.moveUp();
+        elevator.moveUp();
+        elevator.move(11);
+        elevator.move(10);
+        elevator.moveUp();
+        elevator.move(0);
+        elevator.move(5);
+
     }
 }

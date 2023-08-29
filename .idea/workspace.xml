@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65dd5a26-51ae-4e92-a00c-9b1451ff2315" name="Changes" comment="добавил ДЗ №3">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task4/ArrayBist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task4/Run.java" afterDir="false" />
+    <list default="true" id="65dd5a26-51ae-4e92-a00c-9b1451ff2315" name="Changes" comment="добавил класс с динамическим массивом ArrayBist">
+      <change afterPath="$PROJECT_DIR$/src/Task4/Elevator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task1_Task2_Task3/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task1_Task2_Task3/Task2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task1_Task2_Task3/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task4/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task4/Run.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,14 +34,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/MyProjects/HomeTasks"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/MyProjects/HomeTasks&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Run">
     <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task4.Run" />
@@ -155,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693048559449</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="добавил класс с динамическим массивом ArrayBist">
+      <created>1693263577063</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1693263577063</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,6 +178,7 @@
     <MESSAGE value="проверка изменения" />
     <MESSAGE value="добавил ДЗ №2" />
     <MESSAGE value="добавил ДЗ №3" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил ДЗ №3" />
+    <MESSAGE value="добавил класс с динамическим массивом ArrayBist" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил класс с динамическим массивом ArrayBist" />
   </component>
 </project>
