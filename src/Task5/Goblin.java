@@ -1,9 +1,13 @@
 package Task5;
 
-public class Goblin extends Craeture{
-    private final String CREATURE_NAME = "Гоблин";
+public class Goblin extends Enemy{
+    private static final String CREATURE_NAME = "Гоблин";
+    private int count;
 
     public Goblin() {
-        super("Гоблин", 5, 8, 3);
+        super(CREATURE_NAME, 6, 8, 4);
+        count++;
+        setName(getName()+count);
+        setAttackModifier(1);
     }
 }
