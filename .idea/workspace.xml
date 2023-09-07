@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65dd5a26-51ae-4e92-a00c-9b1451ff2315" name="Changes" comment="Добавил 3 класса, 2 существа, автобой">
-      <change afterPath="$PROJECT_DIR$/src/Task7/Bus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task7/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task7/Garage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task7/Minibus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task7/PassengerCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task7/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task7/Truck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="65dd5a26-51ae-4e92-a00c-9b1451ff2315" name="Changes" comment="Добавил ДЗ №7">
+      <change afterPath="$PROJECT_DIR$/src/IndependentTask8/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task8/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task8/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task8/SortByAuthor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +45,20 @@
     &quot;last_opened_file_path&quot;: &quot;C:/MyProjects/HomeTasks&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Task7.Run">
+  <component name="RunManager" selected="Application.Task8.Run">
+    <configuration name="IndependentTask8.Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IndependentTask8.Run" />
+      <module name="HomeTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="IndependentTask8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task4.Run" />
       <module name="HomeTasks" />
@@ -63,26 +72,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1_Task2_Task3.Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task1_Task2_Task3.Task2" />
-      <module name="HomeTasks" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task1_Task2_Task3.Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task1_Task2_Task3.Task3" />
-      <module name="HomeTasks" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Task7.Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task7.Run" />
       <module name="HomeTasks" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Task7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task8.Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task8.Run" />
+      <module name="HomeTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task8.Run" />
+        <item itemvalue="Application.IndependentTask8.Run" />
         <item itemvalue="Application.Task7.Run" />
         <item itemvalue="Application.TrainingGround" />
         <item itemvalue="Application.Run" />
-        <item itemvalue="Application.Task1_Task2_Task3.Task3" />
-        <item itemvalue="Application.Task1_Task2_Task3.Task2" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693556004738</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Добавил ДЗ №7">
+      <created>1693948231883</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1693948231883</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,6 +253,7 @@
     <MESSAGE value="изменил функционал класса Elevator (добавил подземные этажи)" />
     <MESSAGE value="Добавил ДЗ №5" />
     <MESSAGE value="Добавил 3 класса, 2 существа, автобой" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил 3 класса, 2 существа, автобой" />
+    <MESSAGE value="Добавил ДЗ №7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил ДЗ №7" />
   </component>
 </project>
