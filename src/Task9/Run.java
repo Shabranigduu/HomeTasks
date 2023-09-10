@@ -11,8 +11,8 @@ import java.util.TreeMap;
 
 public class Run {
     public static void main(String[] args) {
-        Path in = Path.of("prose.txt");
-        Path out = Path.of("proseChars.txt");
+        Path in = Path.of("resources","prose.txt");
+        Path out = Path.of("resources","proseChars.txt");
         try (BufferedReader bufferedReader = Files.newBufferedReader(in)) {
             StringBuilder prose = new StringBuilder();
             while (bufferedReader.ready()) {
